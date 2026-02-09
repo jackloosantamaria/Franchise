@@ -1,0 +1,501 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20252.25.0818.1050                               -->
+<workbook original-version='18.1' source-build='2025.2.2 (20252.25.0818.1050)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AnimationOnByDefault />
+    <MapboxVectorStylesAndLayers />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='ABC_Licensee_List_ReadyForTableau' inline='true' name='federated.1bv7ktj17vlfnw15ni9221f6cgob' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='ABC_Licensee_List_ReadyForTableau' name='textscan.16g18ci070rs6i1dtyis40qsivdr'>
+            <connection class='textscan' directory='E:/Emprendimiento JL GROUP LLC/franchise' filename='ABC_Licensee_List_ReadyForTableau.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.16g18ci070rs6i1dtyis40qsivdr' name='ABC_Licensee_List_ReadyForTableau.csv' table='[ABC_Licensee_List_ReadyForTableau#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='es_PA' separator=','>
+            <column datatype='string' name='LICENSE' ordinal='0' />
+            <column datatype='string' name='DBA' ordinal='1' />
+            <column datatype='string' name='LOCATION.ADDRESS' ordinal='2' />
+            <column datatype='string' name='COUNTY' ordinal='3' />
+            <column datatype='string' name='PHONE' ordinal='4' />
+            <column datatype='string' name='category' ordinal='5' />
+            <column datatype='boolean' name='sells_liquor' ordinal='6' />
+            <column datatype='real' name='Latitude' ordinal='7' />
+            <column datatype='real' name='Longitude' ordinal='8' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[ABC_Licensee_List_ReadyForTableau.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;es&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;B/.&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;es_PA&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LICENSE</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[LICENSE]</local-name>
+            <parent-name>[ABC_Licensee_List_ReadyForTableau.csv]</parent-name>
+            <remote-alias>LICENSE</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <object-id>[ABC_Licensee_List_ReadyForTableau.csv_D52BADC0013A4845A6A27C2F2F869D6A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DBA</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[DBA]</local-name>
+            <parent-name>[ABC_Licensee_List_ReadyForTableau.csv]</parent-name>
+            <remote-alias>DBA</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <object-id>[ABC_Licensee_List_ReadyForTableau.csv_D52BADC0013A4845A6A27C2F2F869D6A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LOCATION.ADDRESS</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[LOCATION.ADDRESS]</local-name>
+            <parent-name>[ABC_Licensee_List_ReadyForTableau.csv]</parent-name>
+            <remote-alias>LOCATION.ADDRESS</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <object-id>[ABC_Licensee_List_ReadyForTableau.csv_D52BADC0013A4845A6A27C2F2F869D6A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>COUNTY</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[COUNTY]</local-name>
+            <parent-name>[ABC_Licensee_List_ReadyForTableau.csv]</parent-name>
+            <remote-alias>COUNTY</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <object-id>[ABC_Licensee_List_ReadyForTableau.csv_D52BADC0013A4845A6A27C2F2F869D6A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PHONE</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[PHONE]</local-name>
+            <parent-name>[ABC_Licensee_List_ReadyForTableau.csv]</parent-name>
+            <remote-alias>PHONE</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <object-id>[ABC_Licensee_List_ReadyForTableau.csv_D52BADC0013A4845A6A27C2F2F869D6A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>category</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[category]</local-name>
+            <parent-name>[ABC_Licensee_List_ReadyForTableau.csv]</parent-name>
+            <remote-alias>category</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <object-id>[ABC_Licensee_List_ReadyForTableau.csv_D52BADC0013A4845A6A27C2F2F869D6A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>sells_liquor</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[sells_liquor]</local-name>
+            <parent-name>[ABC_Licensee_List_ReadyForTableau.csv]</parent-name>
+            <remote-alias>sells_liquor</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[ABC_Licensee_List_ReadyForTableau.csv_D52BADC0013A4845A6A27C2F2F869D6A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Latitude</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Latitude]</local-name>
+            <parent-name>[ABC_Licensee_List_ReadyForTableau.csv]</parent-name>
+            <remote-alias>Latitude</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[ABC_Licensee_List_ReadyForTableau.csv_D52BADC0013A4845A6A27C2F2F869D6A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Longitude</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Longitude]</local-name>
+            <parent-name>[ABC_Licensee_List_ReadyForTableau.csv]</parent-name>
+            <remote-alias>Longitude</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[ABC_Licensee_List_ReadyForTableau.csv_D52BADC0013A4845A6A27C2F2F869D6A]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='County' datatype='string' name='[COUNTY]' role='dimension' semantic-role='[County].[Name]' type='nominal' />
+      <column caption='Count' datatype='integer' name='[Calculation_1679279746822991872]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column caption='License' datatype='string' name='[LICENSE]' role='dimension' type='nominal' />
+      <column caption='Location.Address' datatype='string' name='[LOCATION.ADDRESS]' role='dimension' type='nominal' />
+      <column aggregation='Avg' datatype='real' name='[Latitude]' role='measure' semantic-role='[Geographical].[Latitude]' type='quantitative' />
+      <column aggregation='Avg' datatype='real' name='[Longitude]' role='measure' semantic-role='[Geographical].[Longitude]' type='quantitative' />
+      <column caption='Phone' datatype='string' name='[PHONE]' role='dimension' type='nominal' />
+      <column caption='ABC_Licensee_List_ReadyForTableau.csv' datatype='table' name='[__tableau_internal_object_id__].[ABC_Licensee_List_ReadyForTableau.csv_D52BADC0013A4845A6A27C2F2F869D6A]' role='measure' type='quantitative' />
+      <column caption='Category' datatype='string' name='[category]' role='dimension' type='nominal' />
+      <column caption='Sells Liquor' datatype='boolean' name='[sells_liquor]' role='dimension' type='nominal' />
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/jackl/AppData/Local/Temp/TableauTemp/#TableauTemp_1lf6c1b1yni7a0106ji6m146uh1v.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='02/06/2026 01:02:42 AM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>LICENSE</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[LICENSE]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>LICENSE</remote-alias>
+              <ordinal>0</ordinal>
+              <family>ABC_Licensee_List_ReadyForTableau.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1811</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+              <object-id>[ABC_Licensee_List_ReadyForTableau.csv_D52BADC0013A4845A6A27C2F2F869D6A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>DBA</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[DBA]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>DBA</remote-alias>
+              <ordinal>1</ordinal>
+              <family>ABC_Licensee_List_ReadyForTableau.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1445</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+              <object-id>[ABC_Licensee_List_ReadyForTableau.csv_D52BADC0013A4845A6A27C2F2F869D6A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>LOCATION.ADDRESS</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[LOCATION.ADDRESS]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>LOCATION.ADDRESS</remote-alias>
+              <ordinal>2</ordinal>
+              <family>ABC_Licensee_List_ReadyForTableau.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1278</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+              <object-id>[ABC_Licensee_List_ReadyForTableau.csv_D52BADC0013A4845A6A27C2F2F869D6A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>COUNTY</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[COUNTY]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>COUNTY</remote-alias>
+              <ordinal>3</ordinal>
+              <family>ABC_Licensee_List_ReadyForTableau.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>28</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+              <object-id>[ABC_Licensee_List_ReadyForTableau.csv_D52BADC0013A4845A6A27C2F2F869D6A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>PHONE</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[PHONE]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>PHONE</remote-alias>
+              <ordinal>4</ordinal>
+              <family>ABC_Licensee_List_ReadyForTableau.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1262</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+              <object-id>[ABC_Licensee_List_ReadyForTableau.csv_D52BADC0013A4845A6A27C2F2F869D6A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>category</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[category]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>category</remote-alias>
+              <ordinal>5</ordinal>
+              <family>ABC_Licensee_List_ReadyForTableau.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+              <object-id>[ABC_Licensee_List_ReadyForTableau.csv_D52BADC0013A4845A6A27C2F2F869D6A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>sells_liquor</remote-name>
+              <remote-type>11</remote-type>
+              <local-name>[sells_liquor]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>sells_liquor</remote-alias>
+              <ordinal>6</ordinal>
+              <family>ABC_Licensee_List_ReadyForTableau.csv</family>
+              <local-type>boolean</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[ABC_Licensee_List_ReadyForTableau.csv_D52BADC0013A4845A6A27C2F2F869D6A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Latitude</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Latitude]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Latitude</remote-alias>
+              <ordinal>7</ordinal>
+              <family>ABC_Licensee_List_ReadyForTableau.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1186</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[ABC_Licensee_List_ReadyForTableau.csv_D52BADC0013A4845A6A27C2F2F869D6A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Longitude</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Longitude]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Longitude</remote-alias>
+              <ordinal>8</ordinal>
+              <family>ABC_Licensee_List_ReadyForTableau.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1177</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[ABC_Licensee_List_ReadyForTableau.csv_D52BADC0013A4845A6A27C2F2F869D6A]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Panama&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='ABC_Licensee_List_ReadyForTableau.csv' id='ABC_Licensee_List_ReadyForTableau.csv_D52BADC0013A4845A6A27C2F2F869D6A'>
+            <properties context=''>
+              <relation connection='textscan.16g18ci070rs6i1dtyis40qsivdr' name='ABC_Licensee_List_ReadyForTableau.csv' table='[ABC_Licensee_List_ReadyForTableau#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='es_PA' separator=','>
+                  <column datatype='string' name='LICENSE' ordinal='0' />
+                  <column datatype='string' name='DBA' ordinal='1' />
+                  <column datatype='string' name='LOCATION.ADDRESS' ordinal='2' />
+                  <column datatype='string' name='COUNTY' ordinal='3' />
+                  <column datatype='string' name='PHONE' ordinal='4' />
+                  <column datatype='string' name='category' ordinal='5' />
+                  <column datatype='boolean' name='sells_liquor' ordinal='6' />
+                  <column datatype='real' name='Latitude' ordinal='7' />
+                  <column datatype='real' name='Longitude' ordinal='8' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='ABC_Licensee_List_ReadyForTableau' name='federated.1bv7ktj17vlfnw15ni9221f6cgob' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.1bv7ktj17vlfnw15ni9221f6cgob'>
+            <column caption='County' datatype='string' name='[COUNTY]' role='dimension' semantic-role='[County].[Name]' type='nominal' />
+            <column caption='Count' datatype='integer' name='[Calculation_1679279746822991872]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='1' />
+            </column>
+            <column aggregation='Avg' datatype='real' name='[Latitude]' role='measure' semantic-role='[Geographical].[Latitude]' type='quantitative' />
+            <column aggregation='Avg' datatype='real' name='[Longitude]' role='measure' semantic-role='[Geographical].[Longitude]' type='quantitative' />
+            <column-instance column='[Latitude]' derivation='Avg' name='[avg:Latitude:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Longitude]' derivation='Avg' name='[avg:Longitude:qk]' pivot='key' type='quantitative' />
+            <column caption='Category' datatype='string' name='[category]' role='dimension' type='nominal' />
+            <column-instance column='[COUNTY]' derivation='None' name='[none:COUNTY:nk]' pivot='key' type='nominal' />
+            <column-instance column='[category]' derivation='None' name='[none:category:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_1679279746822991872]' derivation='Sum' name='[sum:Calculation_1679279746822991872:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1bv7ktj17vlfnw15ni9221f6cgob].[none:COUNTY:nk]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:COUNTY:nk]' member='&quot;BEAVER&quot;' />
+              <groupfilter function='member' level='[none:COUNTY:nk]' member='&quot;BOX ELDER&quot;' />
+              <groupfilter function='member' level='[none:COUNTY:nk]' member='&quot;CACHE&quot;' />
+              <groupfilter function='member' level='[none:COUNTY:nk]' member='&quot;CARBON&quot;' />
+              <groupfilter function='member' level='[none:COUNTY:nk]' member='&quot;DAGGETT&quot;' />
+              <groupfilter function='member' level='[none:COUNTY:nk]' member='&quot;DAVIS&quot;' />
+              <groupfilter function='member' level='[none:COUNTY:nk]' member='&quot;DUCHESNE&quot;' />
+              <groupfilter function='member' level='[none:COUNTY:nk]' member='&quot;EMERY&quot;' />
+              <groupfilter function='member' level='[none:COUNTY:nk]' member='&quot;GARFIELD&quot;' />
+              <groupfilter function='member' level='[none:COUNTY:nk]' member='&quot;GRAND&quot;' />
+              <groupfilter function='member' level='[none:COUNTY:nk]' member='&quot;IRON&quot;' />
+              <groupfilter function='member' level='[none:COUNTY:nk]' member='&quot;JUAB&quot;' />
+              <groupfilter function='member' level='[none:COUNTY:nk]' member='&quot;KANE&quot;' />
+              <groupfilter function='member' level='[none:COUNTY:nk]' member='&quot;MILLARD&quot;' />
+              <groupfilter function='member' level='[none:COUNTY:nk]' member='&quot;MORGAN&quot;' />
+              <groupfilter function='member' level='[none:COUNTY:nk]' member='&quot;N/A&quot;' />
+              <groupfilter function='member' level='[none:COUNTY:nk]' member='&quot;PIUTE&quot;' />
+              <groupfilter function='member' level='[none:COUNTY:nk]' member='&quot;RICH&quot;' />
+              <groupfilter function='member' level='[none:COUNTY:nk]' member='&quot;SALT LAKE&quot;' />
+              <groupfilter function='member' level='[none:COUNTY:nk]' member='&quot;SAN JUAN&quot;' />
+              <groupfilter function='member' level='[none:COUNTY:nk]' member='&quot;SANPETE&quot;' />
+              <groupfilter function='member' level='[none:COUNTY:nk]' member='&quot;SEVIER&quot;' />
+              <groupfilter function='member' level='[none:COUNTY:nk]' member='&quot;SUMMIT&quot;' />
+              <groupfilter function='member' level='[none:COUNTY:nk]' member='&quot;TOOELE&quot;' />
+              <groupfilter function='member' level='[none:COUNTY:nk]' member='&quot;UINTAH&quot;' />
+              <groupfilter function='member' level='[none:COUNTY:nk]' member='&quot;UTAH&quot;' />
+              <groupfilter function='member' level='[none:COUNTY:nk]' member='&quot;WASATCH&quot;' />
+              <groupfilter function='member' level='[none:COUNTY:nk]' member='&quot;WASHINGTON&quot;' />
+              <groupfilter function='member' level='[none:COUNTY:nk]' member='&quot;WAYNE&quot;' />
+              <groupfilter function='member' level='[none:COUNTY:nk]' member='&quot;WEBER&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.1bv7ktj17vlfnw15ni9221f6cgob].[none:COUNTY:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.1bv7ktj17vlfnw15ni9221f6cgob].[avg:Longitude:qk]' field-type='quantitative' max='-12013538.785590708' min='-12684749.506078493' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.1bv7ktj17vlfnw15ni9221f6cgob].[avg:Latitude:qk]' field-type='quantitative' max='5031209.6390787261' min='4683603.5761348326' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <color column='[federated.1bv7ktj17vlfnw15ni9221f6cgob].[none:category:nk]' />
+              <size column='[federated.1bv7ktj17vlfnw15ni9221f6cgob].[sum:Calculation_1679279746822991872:qk]' />
+              <text column='[federated.1bv7ktj17vlfnw15ni9221f6cgob].[none:COUNTY:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1bv7ktj17vlfnw15ni9221f6cgob].[avg:Latitude:qk]</rows>
+        <cols>[federated.1bv7ktj17vlfnw15ni9221f6cgob].[avg:Longitude:qk]</cols>
+      </table>
+      <simple-id uuid='{F8CCDFA0-7F35-48DF-9789-96290038F1AD}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1bv7ktj17vlfnw15ni9221f6cgob].[none:category:nk]' type='color' />
+            <card pane-specification-id='0' param='[federated.1bv7ktj17vlfnw15ni9221f6cgob].[sum:Calculation_1679279746822991872:qk]' type='size' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{4C8C20E5-C57D-444B-8EDB-181A90BA726F}' />
+    </window>
+  </windows>
+</workbook>
