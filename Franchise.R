@@ -85,7 +85,7 @@ con <- dbConnect(
     password = "casa2081992",
     host = "127.0.0.1",
     port = 3306,
-    dbname = 
+    dbname = "cse310"
 )
 
 #Creating SQL Tables
@@ -118,6 +118,7 @@ FOREIGN KEY (LICENSE) REFERENCES licenses(LICENSE)
 dbWriteTable(con, "licenses", data_for_tableau %>%
                 select(LICENSE, DBA, COUNTY, PHONE, category, sells_liquor),
             append = TRUE, row.names = FALSE)
+
 
 #Insert in locations
 dbWriteTable(con, "locations", data_for_tableau %>%
@@ -154,7 +155,7 @@ print(result2)
 #update
 dbExecute(con, "
 UPDATE licenses
-SET PHONE = '999-999-9999'
+SET PHONE = '999-999-9299'
 WHERE LICENSE = 'AL00002'
 "
 )
@@ -171,7 +172,8 @@ print(check_update)
 #delete
 dbExecute(con, "
 DELETE FROM licenses
-WHERE LICENSE = 'AL00002'
+WHERE LICENSE = 'AL00005'
 "
 )
 
+dbDisconnect(con)
