@@ -4,7 +4,7 @@ This software demonstrates how to integrate **R with a SQL Relational Database**
 
 The purpose of this software is to provide a practical example of relational database design, SQL queries, and integration with R for data analysis. It allows the user to insert, retrieve, update, and delete records, as well as perform aggregation queries to summarize the data.
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://www.youtube.com/watch?v=EAXUH-mCpsw&feature=youtu.be)
 
 # Relational Database
 
